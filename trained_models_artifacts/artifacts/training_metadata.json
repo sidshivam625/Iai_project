@@ -1,0 +1,44 @@
+{
+  "device": "cuda",
+  "n_total": 180338,
+  "n_train": 126236,
+  "n_val": 27051,
+  "n_test": 27051,
+  "split_paths": {
+    "train": "/kaggle/working/artifacts/splits/train.csv",
+    "val": "/kaggle/working/artifacts/splits/val.csv",
+    "test": "/kaggle/working/artifacts/splits/test.csv"
+  },
+  "model_dir": "/kaggle/working/artifacts/models",
+  "train_args": {
+    "epochs": 2,
+    "batch_size": 64,
+    "max_length": 256,
+    "learning_rate": 2e-05,
+    "random_state": 42
+  },
+  "training_info": {
+    "roberta_train_history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.03830217995553242,
+        "val_loss": 0.020690526219409474
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.016629647176932365,
+        "val_loss": 0.01828211716930938
+      }
+    ],
+    "fusion": {
+      "f1": 0.9876261803972647,
+      "w1": 0.0,
+      "w2": 1.0
+    },
+    "thresholds": {
+      "best_f1": 0.987781036168133,
+      "t_block": 0.5,
+      "t_sanitize": 0.20000035666965915
+    }
+  }
+}

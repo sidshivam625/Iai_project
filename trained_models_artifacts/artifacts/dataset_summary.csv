@@ -1,0 +1,16 @@
+source_group,source_file,label,samples
+benign,tapir.csv,0,81983
+benign,platypus.csv,0,24924
+benign,super_glue_squad_v2.csv,0,11863
+benign,code.csv,0,9993
+benign,puffin.csv,0,5834
+benign,boolq.csv,0,3270
+benign,docRED.csv,0,998
+benign,benign_deepset.csv,0,399
+malicious,forbidden_question_set_with_prompts.csv,1,21060
+malicious,predictionguard_df.csv,1,17593
+malicious,jailbreak_prompts.csv,1,1417
+malicious,viccuna_prompts.csv,1,520
+malicious,malicous_deepset.csv,1,263
+malicious,adv_prompts.csv,1,200
+malicious,forbidden_question_set_df.csv,1,21

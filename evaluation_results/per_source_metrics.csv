@@ -1,0 +1,16 @@
+source_file,samples,accuracy,precision,recall,f1
+adv_prompts.csv,24,1.0,1.0,1.0,1.0
+forbidden_question_set_df.csv,3,1.0,1.0,1.0,1.0
+forbidden_question_set_with_prompts.csv,3174,1.0,1.0,1.0,1.0
+viccuna_prompts.csv,72,0.9861111111111112,1.0,0.9861111111111112,0.993006993006993
+predictionguard_df.csv,2627,0.9714503235629997,1.0,0.9714503235629997,0.9855184398532535
+jailbreak_prompts.csv,207,0.9033816425120773,1.0,0.9033816425120773,0.949238578680203
+malicous_deepset.csv,54,0.6851851851851852,1.0,0.6851851851851852,0.8131868131868132
+code.csv,1549,1.0,0.0,0.0,0.0
+docRED.csv,140,1.0,0.0,0.0,0.0
+benign_deepset.csv,53,0.8867924528301887,0.0,0.0,0.0
+boolq.csv,477,1.0,0.0,0.0,0.0
+platypus.csv,3734,0.9962506695232994,0.0,0.0,0.0
+puffin.csv,835,0.9544910179640719,0.0,0.0,0.0
+super_glue_squad_v2.csv,1778,1.0,0.0,0.0,0.0
+tapir.csv,12324,1.0,0.0,0.0,0.0

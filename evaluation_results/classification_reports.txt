@@ -1,0 +1,44 @@
+[roberta]
+              precision    recall  f1-score   support
+
+      benign     0.9930    0.9980    0.9955     20890
+   malicious     0.9931    0.9760    0.9844      6161
+
+    accuracy                         0.9930     27051
+   macro avg     0.9930    0.9870    0.9900     27051
+weighted avg     0.9930    0.9930    0.9930     27051
+
+
+[ml]
+              precision    recall  f1-score   support
+
+      benign     0.9950    0.9971    0.9961     20890
+   malicious     0.9902    0.9830    0.9866      6161
+
+    accuracy                         0.9939     27051
+   macro avg     0.9926    0.9900    0.9913     27051
+weighted avg     0.9939    0.9939    0.9939     27051
+
+
+[ensemble]
+              precision    recall  f1-score   support
+
+      benign     0.9950    0.9971    0.9961     20890
+   malicious     0.9902    0.9830    0.9866      6161
+
+    accuracy                         0.9939     27051
+   macro avg     0.9926    0.9900    0.9913     27051
+weighted avg     0.9939    0.9939    0.9939     27051
+
+
+[final_risk]
+              precision    recall  f1-score   support
+
+      benign     0.9946    0.9972    0.9959     20890
+   malicious     0.9905    0.9817    0.9861      6161
+
+    accuracy                         0.9937     27051
+   macro avg     0.9926    0.9894    0.9910     27051
+weighted avg     0.9937    0.9937    0.9937     27051
+
+
